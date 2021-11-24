@@ -7,6 +7,9 @@
 body {
     background-color: #d9dcd6;
 }
+.button_style {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
 .header {
     padding: 20px;
