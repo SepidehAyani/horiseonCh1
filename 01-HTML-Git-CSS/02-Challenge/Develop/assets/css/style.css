@@ -1,3 +1,10 @@
+:root{
+    --white: #ffffff;
+    /* --dark-blue: #13293d;
+    --tan: #d8a47f;
+    /* You can use it with any value that is repeated throughout the sheet */
+    /* --border-radius: 50px; */ 
+}
 * {
     box-sizing: border-box;
     padding: 0;
@@ -7,62 +14,41 @@
 body {
     background-color: #d9dcd6;
 }
-.button {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-decoration: none;
-    display: flex;
-    border-radius: 10px;
-    border: none;
-    padding: 20px 20px 20px 20px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 20px;
-    cursor: pointer;
-}
-
-.button:hover {background-color: gray}
-
 
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    color: #ffffff;
-    font-size: 30px;
-    display: flex;
-    text-align: left;
+    color: var(--white);}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
 }
 
-/* .header h1 {
-    display: flex;
-    font-size: 48px;
-} */
-
-/* .header h1 .seo {
+.header h1 .seo {
     color: #d9dcd6;
+}
 
-} */
-
-/* .header div {
+.header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-} */
+}
 
 .header div ul {
     list-style-type: none;
-    padding-left: 250px;
-    padding-top: 10px;
 }
 
 .header div ul li {
-    display: inline-block;    
+    display: inline-block;
+    margin-left: 25px;
 }
 
 a {
-    color: #ffffff;
+    color: var(--white);
     text-decoration: none;
 }
 
@@ -108,18 +94,15 @@ p {
 
 .benefit-lead {
     margin-bottom: 32px;
-    color: #ffffff;
-}
+    color: var(--white);}
 
 .benefit-brand {
     margin-bottom: 32px;
-    color: #ffffff;
-}
+    color: var(--white);}
 
 .benefit-cost {
     margin-bottom: 32px;
-    color: #ffffff;
-}
+    color: var(--white);}
 
 .benefit-lead h3 {
     margin-bottom: 10px;
@@ -160,8 +143,7 @@ p {
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
-    color: #ffffff;
-}
+    color: var(--white);}
 
 .online-reputation-management {
     margin-bottom: 20px;
@@ -169,8 +151,7 @@ p {
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
-    color: #ffffff;
-}
+    color: var(--white);}
 
 .social-media-marketing {
     margin-bottom: 20px;
@@ -178,8 +159,7 @@ p {
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
-    color: #ffffff;
-}
+    color: var(--white);}
 
 .search-engine-optimization img {
     max-height: 200px;
