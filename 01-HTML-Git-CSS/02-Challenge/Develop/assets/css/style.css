@@ -1,9 +1,5 @@
 :root{
     --white: #ffffff;
-    /* --dark-blue: #13293d;
-    --tan: #d8a47f;
-    /* You can use it with any value that is repeated throughout the sheet */
-    /* --border-radius: 50px; */ 
 }
 * {
     box-sizing: border-box;
