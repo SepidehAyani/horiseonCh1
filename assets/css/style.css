@@ -18,6 +18,9 @@ body {
     background-color: #2a607c;
     color: var(--white);
     padding: var(--padding-20);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .header h1 {
