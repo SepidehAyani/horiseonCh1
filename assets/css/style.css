@@ -64,51 +64,13 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-.content {
+.content-styling {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
-    margin-right: 20px;
-    padding: var(--padding-20);
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-.benefits-styling{
-    margin-bottom: 32px;
-    color: var(--white);
-}
-
-.benefits-h3{
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-
-.benefits-img-styling{
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.content-img-and-text-styling {
+.content-styling article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -117,11 +79,47 @@ p {
     color: var(--white);
 }
 
-.content-img-and-text-styling img {
+.content-styling article img {
     max-height: 200px;
+    float: left;
+    margin-right: 25px;
 }
 
-.content-img-and-text-styling h2 {
+.content-styling article section img {
+    max-height: 200px;
+    float: right;
+    margin-right: 25px;
+}
+
+.content-styling article h2 {
     margin-bottom: 20px;
     font-size: 36px;
+}
+
+.sidebar-styling {
+    margin-right: 20px;
+    padding: var(--padding-20);
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+    flex-basis:50%;
+}
+
+.sidebar-styling div div {
+    margin-bottom: 32px;
+    color: var(--white);
+}
+
+.sidebar-styling h3{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.sidebar-styling img{
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
 }
